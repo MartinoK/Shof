@@ -1,0 +1,1 @@
+jQuery('table.leden a').click(function(){ window.open(this.href, 'popup', 'width=500,height=500' );  return false; })

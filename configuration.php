@@ -1,0 +1,68 @@
+<?php
+class JConfig {
+	public $offline = '0';
+	public $offline_message = 'Dit is de website van Soesterhof - Duurzaam Wonen Project
+Momenteel wordt er gewerkt aan de site.
+Kom binnenkort weer eens terug.';
+	public $display_offline_message = '1';
+	public $offline_image = '';
+	public $sitename = 'Soesterhof - Duurzaam Wonen Project';
+	public $editor = 'tinymce';
+	public $captcha = '0';
+	public $list_limit = '20';
+	public $access = '1';
+	public $dbtype = 'mysqli';
+	public $host = 'localhost';
+	public $user = 'deb63719_jos1';
+	public $password = 'BzUi*URP0Xq&2';
+	public $db = 'deb63719_jos1';
+	public $dbprefix = 'jos_';
+	public $secret = 'Y5FEfM7oY8eUfYmW';
+	public $gzip = '0';
+	public $error_reporting = 'default';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
+	public $ftp_host = '127.0.0.1';
+	public $ftp_port = '21';
+	public $ftp_user = '';
+	public $ftp_pass = '';
+	public $ftp_root = '';
+	public $ftp_enable = '0';
+	public $tmp_path = '/home/deb63719/domains/soesterhof.nl/public_html/tmp';
+	public $log_path = '/home/deb63719/domains/soesterhof.nl/public_html/logs';
+	public $live_site = '';
+	public $force_ssl = '0';
+	public $offset = 'Europe/Amsterdam';
+	public $lifetime = '60';
+	public $session_handler = 'database';
+	public $mailer = 'mail';
+	public $mailfrom = 'martinkosterman@gmail.com';
+	public $fromname = 'Soesterhof - Duurzaam Wonen Project';
+	public $sendmail = '/usr/sbin/sendmail';
+	public $smtpauth = '0';
+	public $smtpuser = 'deb63719_jos1';
+	public $smtppass = '';
+	public $smtphost = 'localhost';
+	public $caching = '0';
+	public $cachetime = '15';
+	public $cache_handler = 'file';
+	public $debug = '0';
+	public $debug_lang = '0';
+	public $MetaDesc = 'Soesterhof - Duurzaam Wonen Project';
+	public $MetaKeys = 'Soesterhof, Duurzaam, Wonen,  Project, Eco';
+	public $MetaTitle = '1';
+	public $MetaAuthor = '0';
+	public $MetaVersion = '0';
+	public $robots = '';
+	public $sef = '1';
+	public $sef_rewrite = '1';
+	public $sef_suffix = '0';
+	public $unicodeslugs = '1';
+	public $feed_limit = '10';
+	public $feed_email = 'none';
+	public $smtpsecure = 'none';
+	public $smtpport = '25';
+	public $MetaRights = 'Soesterhof - 2013 ';
+	public $sitename_pagetitles = '2';
+	public $cookie_domain = '';
+	public $cookie_path = '';
+}
